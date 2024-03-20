@@ -9,6 +9,11 @@ def add_to_student_dictionary(id, first_name, last_name, age):
 
 print(students_dictionary)
 
-add_to_student_dictionary(1, 'Dmytro', 'Shepeliev', 25)
+id = input('Введіть айді: ')
+first_name = input('Введіть імʼя: ')
+last_name = input('Введіть прізвище: ')
+age = input('Введіть вік: ')
+
+add_to_student_dictionary(id, first_name, last_name, age)
 
 print(students_dictionary)
